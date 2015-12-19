@@ -12,7 +12,7 @@ public class iPersonWrite {
 	private String phone_number;
 	private String email_address;
 
-		//setvalues
+	
 		public void setFirstName(String FirstName) {
 			this.FirstName = FirstName;
 		}
