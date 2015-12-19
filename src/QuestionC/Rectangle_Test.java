@@ -30,7 +30,7 @@ public class Rectangle_Test {
 	public void Rectangle_Test1() {
 		
 		Rectangle r2 = new Rectangle(-5, -10);
-		assertTrue(r2.ComputeArea() == 50);
+		assertEquals(r2.ComputeArea() == 50);
 	}
 	
 	@Test
@@ -38,7 +38,7 @@ public class Rectangle_Test {
 		
 	
 		Rectangle r2 = new Rectangle(-5, -10);
-		assertTrue(r2.ComputeArea() == 50);
+		assertEquals(r2.ComputeArea() == 50);
 	}
 	
 
